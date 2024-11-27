@@ -1,0 +1,113 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background: #000;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ff6701;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ff6701;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+/* Main Sections */
+main section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 2rem;
+    color: #ff6701;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1rem;
+}
+
+/* Game Container */
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.game-frame {
+    width: 700px;
+    height: 500px;
+    border: 5px solid #ff6701;
+    border-radius: 10px;
+}
+
+/* Gallery Styling */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #ff6701;
+    box-shadow: 0 0 10px rgba(255, 103, 1, 0.7);
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #ff6701;
+}
