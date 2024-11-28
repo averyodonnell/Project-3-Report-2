@@ -24,32 +24,61 @@
         <section id="play">
             <h2>Play the Game</h2>
             <div class="game-container">
-                <iframe src="game.html" frameborder="0" class="game-frame"></iframe>
+                <script src="script.js"></script>
+                <div id="startScreen" class="start-screen">
+                    <h1>GHOSTY'S TRICK-OR-TREAT</h1>
+                    <h2>Help the ghost catch 100 candies for Halloween!</h2>
+                    <h3>NOTE: the candies speed up as time goes on</h3>
+                    <br>
+                    <button id="playButton" class="play-button">Play</button>
+                </div>
+            
+               
+                <div class="game" style="display: none;">
+                    <div class="line1"></div>
+                    <div class="character"></div>
+                </div>
+            
+            
+                <div id="youWonScreen" class="you-won-screen" style="display: none;">
+                    <h1>You Won!</h1>
+                    <h2></h2>Congratulations! You helped Ghosty get his treats!</h2>
+                    <br>
+                    <button id="restartButton" class="restart-button">Play Again</button>
+                </div>
+            
+            
+                <div id="score">Score: 0</div>  
+                <button id="pauseButton" style="display: none;">Pause</button>    
+            
+            
+                <script src="script.js"></script>
+            </body>
+            </html>
             </div>
         </section>
         <section id="instructions">
             <h2>Instructions</h2>
             <p>
-                Use the <strong>Arrow Keys</strong> to move Ghosty left or right. Catch the candies while avoiding any obstacles. 
-                Collect 100 candies to win, but beware — the candies fall faster as the game progresses!
+                Use the <strong>Arrow Keys</strong> to move Ghosty left or right. Catch the candies before they hit the ground! Collect 100 candies to win!
             </p>
         </section>
         <section id="demo">
-            <h2>Demo Video</h2>
-            <p>Coming soon! Watch Ghosty in action catching candies.</p>
-        </section>
+            <iframe width="420" height="315"
+            src="https://www.youtube.com/embed/aPBusjaYEQI">
+            </iframe>
         <section id="screenshots">
             <h2>Screenshots</h2>
             <div class="gallery">
-                <img src="screenshot1.png" alt="Screenshot of Ghosty catching candies">
-                <img src="screenshot2.png" alt="Gameplay in action">
-                <img src="screenshot3.png" alt="Winning screen">
+                <img src="https://i.pinimg.com/736x/67/9e/41/679e41699dc56eecf918f28fccc78208.jpg" alt="Screenshot of Ghosty catching candies">
+                <img src="https://i.pinimg.com/736x/37/8c/e0/378ce077d57fe420fcd9a0e58bb31a69.jpg" alt="Gameplay in action">
+                <img src="https://i.pinimg.com/736x/74/ee/b8/74eeb8e7652ef590fd07a2d80c2c9b7a.jpg" alt="Winning screen">
             </div>
         </section>
         <section id="credits">
             <h2>Credits</h2>
-            <p>Game design and development by [Your Name].</p>
-            <p>External assets: Candy icon by [source], Ghost icon by [source].</p>
+            <p>Game design and development by Annabel Young and Avery O'Donnell</p>
+            <p>External assets: Candy icon by iconfinder.com, Ghost icon by vecteezy.com, Background by getwallpapers.com</p>
         </section>
     </main>
     <footer>
